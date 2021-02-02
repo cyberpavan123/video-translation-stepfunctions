@@ -28,7 +28,7 @@ exports.handler = function(event, context, callback) {
 
 
     // Set the custom endpoint for your account
-    AWS.config.mediaconvert = {endpoint : 'https://vasjpylpa.mediaconvert.us-east-1.amazonaws.com'};
+    AWS.config.mediaconvert = {endpoint : 'https://2k4nj1qdb.mediaconvert.eu-west-1.amazonaws.com'};
     
     let audioInputFile = "s3://" + pollyBucket + "/"+audioInputFileName;
     let masterVideoFile = "s3://" + originalVideoBucket + "/"+originalVideoFilename+".mp4";
